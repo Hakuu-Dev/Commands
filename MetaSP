@@ -1,0 +1,6 @@
+client.on("messageCreate", message => {
+    console.log(message);
+    if(message.content === ".meta"){
+        message.reply("https://cdn.discordapp.com/attachments/1072827019236216864/1073562324000059392/unknown.png");
+    }
+});
